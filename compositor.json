@@ -1,0 +1,83 @@
+{
+  "name": "herlifeinpixels/herlifeinpixels.github.com",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/herlifeinpixels/herlifeinpixels.github.com",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "herlifeinpixels.github.com",
+      "subhead": null,
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "herlifeinpixels.github.com: ",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "herlifeinpixels",
+          "repo": "herlifeinpixels.github.com"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>Jekyll-Bootstrap</h1>\n<p>This is a clean install of the core Jekyll Bootstrap framework you can clone and run your Jekyll blog with.</p>\n<p>Jekyll-bootstrap is the quickest and most hassle-free way to get your new Jekyll powered website up and running.\n100% compatible with GitHub pages.</p>\n<h2>Usage</h2>\n<p>For all usage and documentation please see: <a href=\"http://jekyllbootstrap.com\">http://jekyllbootstrap.com</a></p>\n<h2>Version</h2>\n<p>0.0.1 - stable but not versioned.</p>\n<p>This version is stable and readily deployable to GitHub Pages and production Jekyll installs.\nHowever, please expect fast updates that are not backwards compatible with older installs.\nWhen development reaches 0.1.0, version compatibility between releases will be respected.</p>\n<h2>Development</h2>\n<p>Development is active! </p>\n<h2>Contributing</h2>\n<p>This repository tracks 2 projects:</p>\n<ul>\n<li><p><strong>Jekyll-Bootstrap Framework.</strong><br>The framework for which users should clone and build their blog on top of is available in the master branch.\nPlease fork and contribute additions to the framework itself here.</p>\n</li>\n<li><p><strong>Jekyll-Bootstrap Documentation Website.</strong><br>The documentation website at <a href=\"http://jekyllbootstrap.com\">http://jekyllbootstrap.com</a> is maintained in the gh-pages branch.\nPlease fork and contribute documentation additions to this branch only.</p>\n</li>\n</ul>\n<p>The master and gh-pages branch do not share the same ancestry. Please treat them as completely separate git repositories!</p>\n<h2>License</h2>\n<p><a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/herlifeinpixels/herlifeinpixels.github.com",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/herlifeinpixels",
+          "text": "herlifeinpixels"
+        }
+      ]
+    }
+  ]
+}
